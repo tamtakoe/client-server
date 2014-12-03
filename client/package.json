@@ -1,0 +1,11 @@
+{
+    "name": "nodecourse_client",
+    "version": "0.0.0",
+    "private": true,
+    "devDependencies": {
+        "gulp": "*",
+        "gulp-webserver": "*",
+        "gulp-stylus": "*",
+        "gulp-concat": "*"
+    }
+}

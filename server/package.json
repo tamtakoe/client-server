@@ -1,0 +1,20 @@
+{
+    "name": "nodecourse_server",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "mongodb": "*",
+        "connect-mongo": "*",
+        "mongoose": "*",
+        "errorhandler ": "*",
+        "koa": "*",
+        "koa-formidable": "*",
+        "koa-router": "*",
+        "koa-oauth-server": "*",
+        "koa-cors": "*",
+        "koa-request": "*"
+    }
+}

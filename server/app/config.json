@@ -1,0 +1,16 @@
+{
+    "port": 5000,
+    "oauth": {
+        "host": "http://localhost:4000"
+    },
+    "mongoose": {
+        "uri": "mongodb://localhost/nodecourse",
+        "options": {
+            "server": {
+                "socketOptions": {
+                    "keepAlive": 1
+                }
+            }
+        }
+    }
+}

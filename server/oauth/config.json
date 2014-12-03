@@ -1,0 +1,13 @@
+{
+  "port": 4000,
+  "mongoose": {
+    "uri": "mongodb://localhost/oauth",
+    "options": {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  }
+}

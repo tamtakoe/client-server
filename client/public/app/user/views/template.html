@@ -1,0 +1,5 @@
+<div class="row">
+    <div class="col-md-6" ui-view="login" ng-if="!authorized"></div>
+    <div class="col-md-6" ui-view="logout" ng-if="authorized"></div>
+    <div class="col-md-6" ui-view="registration"></div>
+</div>
